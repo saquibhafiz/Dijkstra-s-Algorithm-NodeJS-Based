@@ -1,0 +1,9 @@
+curl -i -X POST http://localhost:1337/vertex/new/A;
+curl -i -X POST http://localhost:1337/vertex/new/B;
+curl -i -X POST http://localhost:1337/vertex/new/C;
+curl -i -X POST http://localhost:1337/vertex/new/D;
+
+curl -i -X POST http://localhost:1337/vertex/0/neighbours/new/"\[1,2\]"/"\[\]";
+curl -i -X POST http://localhost:1337/vertex/1/neighbours/new/"\[\]"/"\[\]";
+curl -i -X POST http://localhost:1337/vertex/2/neighbours/new/"\[\]"/"\[\]";
+curl -i -X POST http://localhost:1337/vertex/3/neighbours/new/"\[\]"/"\[\]";
